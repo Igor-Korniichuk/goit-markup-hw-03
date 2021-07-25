@@ -1,0 +1,239 @@
+/* Основной цвет текста #757575 */
+/* Второстепенный цвет текста #212121 */
+/* Белый цыет #FFFFFF */
+/* Цвет акцента #2196F3 */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+}
+
+body {    
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.conteiner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.logo {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-family: Raleway, sans-serif;    
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.studio-black {
+    color: var(--title-text-color);
+}
+
+/* Site nav */
+.site-nav .link {
+    color: var(--title-text-color);
+    text-decoration: none;       
+    font-weight: 500;
+    font-size: 14px;
+    line-height:1.14;
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.site-nav .link:hover, .site-nav .link:focus, .contacts a:hover, .contacts a:focus  {
+    color: var(--accent-color);
+}
+
+.contacts a {
+    color:var(--primary-text-color);
+    text-decoration: none;       
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+}
+
+/* Hero */
+.hero {
+    background-color: #2F303A;
+    text-align: center;
+}
+
+.hero-title {
+    margin-top: 0;
+    margin-bottom: 30;
+    color: var(--white-color);        
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;    
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    }
+
+/* Button */
+.button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    font-family: inherit;    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;     
+    letter-spacing: 0.06em;
+
+}
+
+/* Section */
+
+.section {
+    padding-top: 0;
+    padding-bottom: 94px;
+}
+
+
+.section-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: var(--title-text-color);    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;    
+
+}
+
+/* Ffeatures */
+
+.features.list {
+    padding-top: 94px;
+}
+
+.features-title {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+.features .title {
+    margin-top: 0;
+    margin-bottom: 10;
+    color: var(--title-text-color);      
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;   
+    text-transform: uppercase;
+}
+
+.features .text { 
+    margin-top: 0; 
+    margin-bottom: 0;    
+    font-size: 14px;
+    line-height: 1.71;    
+}
+
+/* Team */
+.team .title {
+    color: var(--title-text-color);       
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;    
+}
+
+.team-position {         
+    font-size: 16px;
+    line-height: 1.19;    
+}
+
+
+/* Footer */
+footer {
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.studio-white {
+    color: var(--white-color);
+}
+
+address p {
+    color: var(--white-color);
+    font-style: normal;     
+    font-size: 14px;
+    line-height: 1.71;    
+}
+
+address a {
+    color: rgba(255, 255, 255, 0.6);   
+    font-style: normal;    
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;    
+}
+
+
+/* СТИЛИ ДЛЯ ПОРТФОЛИО */
+
+/* Filter */
+.filter .button {
+    color: var(--title-text-color);
+    background-color: var(--white-color);
+    font-family: inherit;    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;     
+}
+
+.filter .button:hover, .filter .button:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);    
+}
+
+/* Projects */
+.projects a {
+        text-decoration: none;   
+}
+
+.link .title {
+    color: var(--title-text-color);    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+}
+
+.link p {
+    color: var(--primary-text-color);     
+    font-size: 16px;
+    line-height: 1.88;
+}
